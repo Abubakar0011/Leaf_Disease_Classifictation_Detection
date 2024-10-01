@@ -34,4 +34,4 @@ class PredictionPipeline:
         # Map the result to class labels
         prediction = self.class_labels.get(result[0], 'Unknown')
 
-        return [{"image": prediction}]
+        return [{"image shows": prediction}]
